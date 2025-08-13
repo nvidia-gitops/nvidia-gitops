@@ -25,7 +25,6 @@ permissions:
 jobs:
   fleet-gitops:
     runs-on: ubuntu-latest
-    steps:
       - name: Checkout GitOps repository
         uses: actions/checkout@v4
       - name: Run gitops script
